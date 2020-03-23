@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Everset Food | Welcome</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+	</head>
+
+	<body>
+        <header>
+    
+             <nav>
+                <div class="row clearfix">
+                    <img src="img/logo.png" width="70" height="70" class="logo">
+                    <ul class="main-nav animated slideInDown" id="check-class">
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#">Reservation</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Offer</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    
+                    </ul>
+                    <a href="#" class="mobile-icon"  onclick="slideshow()"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav>
+        <div class="main-content-header">
+            <h1> Welcome to <span class="color-change">Everset Cusine</span>.<br>
+                Place for Fresh Food.</h1>
+            <a href="#" class="btn btn-full">Order Now</a>
+            <a href="#" class="btn btn-low">Check Menu</a>
+        </div>
+    </header>
+        <script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+
+</body>
+</html>
